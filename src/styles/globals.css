@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+@font-face {
+  font-family: "poppins";
+  src: url("../../public/fonts/Poppins-Regular.ttf");
+}
+body {
+  background-color: rgb(28, 34, 58);
+  color: rgb(199, 216, 235);
+}
